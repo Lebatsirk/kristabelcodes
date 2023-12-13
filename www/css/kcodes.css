@@ -1,0 +1,120 @@
+/* kcodes.css */
+
+body
+{
+	font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+	background-color: #FFFDD0;
+}
+
+@media screen and (min-width: 801px) 
+{
+	.outer_container
+	{
+		display: grid;
+		width: auto;
+		/* background-color: #0099CC; */
+		padding: 1vw;
+		grid-template-columns: 2fr 1fr;
+		grid-template-areas: 
+			'box1 box1'
+			'box2 box3'
+			'box4 box5'
+			'box6 box6'
+			'box7 box7';
+	}
+}
+@media screen and (max-width: 800px) 
+{
+	.outer_container
+	{
+		display: grid;
+		width: auto;
+		background-color: #0099CC;
+		margin: 0vw;
+		padding: 1vw;
+		grid-template-columns: auto;
+		grid-template-areas: 
+			'box1'
+			'box2'
+			'box3'
+			'box4'
+			'box5'
+			'box6'
+			'box7';
+	}
+}
+.box1
+{
+    display: grid;
+	grid-area: box1;
+	background-color: #6699FF;
+    width: auto;
+	padding: 0.5vw;
+	justify-content: center;
+}
+.box2
+{
+    display: grid;
+	grid-area: box2;
+	background-color: #FFFFB3;
+	width: max-width;
+	padding: 0.5vw;
+}
+.box2 li
+{
+	list-style-type: default;
+	color: navy;
+}
+
+.box3
+{
+    display: grid;
+	grid-area: box3;
+	background-color: #FFB3B3;
+    width: auto;
+	padding: 0.5vw;
+	text-align: right;
+	font-style: italic;
+	font-size: x-large;
+	align-content: center;
+}
+.box4
+{
+    display: grid;
+	grid-area: box4;
+	background-color: #E0B3FF;
+    width: auto;
+	padding: 0.5vw;
+}
+.box5
+{
+    display: grid;
+	grid-area: box5;
+	background-color: #B3D9FF;
+    width: max-width;
+	padding: 0.5vw;
+	align-content: center;
+}
+.box6
+{
+    display: grid;
+	grid-area: box6;
+	background-color: #B3FFB3;
+    width: auto;
+	padding: 0.5vw;
+}
+.box6 li
+{
+	list-style-type: circle;
+	color: #008000;
+}
+
+.box7
+{
+    display: grid;
+	grid-area: box7;
+	background-color: #B3B3E6;
+    width: auto;
+	padding: 0.5vw;
+	margin: 2vw;
+}
