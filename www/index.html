@@ -3,32 +3,39 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <link rel="stylesheet" type="text/css" href="css/kcodes.css" />
+        <link rel="stylesheet" type="text/css" href="css/kcodes_fonts.css" />
+		<link rel="stylesheet" type="text/css" href="css/kcodes.css" />
         <title>kristabel codes</title>
     </head>
     <body>
+		<!-- ARIA landmark roles to consider: banner, search, navigation, form, main, region, complementary, contentinfo -->
+
 		<div class="outer_container">
-			<div class="box1"><h1>kristabel codes</h1></div>
-			<div class="box2"><p>I've been delaying adding this site's URL to my LinkedIn profile and other places because it was a work in progress.  I have ideas of what I want to do here, including (but not limited to): </p>
-			<ul>
-			<li>displaying static and interactive versions of my CV,</li>
-			<li>showcasing my CSS skills (including the use of css grid),</li>
-			<li>demonstrating knowledge of database connectivity with PHP and SQL,</li>
-			<li>including aria landmark features and design choices that highlight my understanding of accessibility and usability, and</li>
-			<li>adding small portfolio projects to demonstrate my problem-solving, coding, and commenting skills</li>
-			</ul>
-			</div>
-			<div class="box3">...but I've been getting in my own way.</div>
-			<div class="box4"><p>I'm the first to admit that I can be a bit of a perfectionist. I like things to be right before being judged, but I'm aware that the real world rarely provides the time for this.</p><p>During the final project for my degree I learned to set myself sub-deadlines to help address this tendency while maintaining my motiviation.</p><p>So in the spirit of accepting that "in progress" is not a bad thing, but simply indicates something that is developing, changing, (or perhaps even evolving?) I have decided to make this a feature of my website!</div>
-			<div class="box5"><p>I've applied to study for a masters degree in Artificial Intelligence and Machine Learning from next autumn (more about this will follow!) so over the coming months I intend to do the following things, documenting my progress along the way and sharing it with whoever views this site.</p></div>
-			<div class="box6"><ul><li>Improve my Python skills by completing relevant courses on Codecademy and sharing the code I come up with during activities on here</li>
-			<li>Refresh and learn new maths skills, including statistics, probability, linear algebra, and calculus (as recommended by current MSc students at UoB during the open day and also from online reading)</li>
-			<li>Convert my CV into different data structure formats, e.g. XML/JSON and create something dynamic on this site for viewers to interact with the parts of my CV they wish to see</li>
-			<!-- <li>Continue to learn React because I'm fascinated by its flexibility and potential for building websites without some of the limitations offered by more traditional methods of web development</li> -->
-			<li>Do all this with source control on Github to document the journey whilst becoming more comfortable with Github itself</li>
-			<li>...anything else interesting that I think of!</li></ul>
-			<p>I almost stopped here, thinking that I couldn't upload this until I was sure I'd included everything on this list but then I changed the final item after reminding myself that there is nothing wrong with an incomplete list.</p></div>
-			<div class="box7">FYI, the rainbow colours are a current bit of fun to make the dynamic display obvious until I change it to something more "classy"</div>
+			<header role="banner"><h1 class="pagetitle">kristabel codes</h1></header>					
+			<nav role="navigation">
+				<ul>
+					<li><a class="navbutton" role="button" href="index.html">Home</a></li>
+					<li><a class="navbutton" role="button" href="cv.html">View CV online</a></li>
+					<li><a class="navbutton" role="button" href="files/Kristabel_Hilton_CV_anon.pdf">Download CV (.pdf)</a></li>
+					<li><a class="navbutton" role="button" href="files/Kristabel_Hilton_CV_anon.docx">Download CV (.docx)</a></li>
+					<li><a class="navbutton" role="button" href="https://www.linkedin.com/in/kristabel-hilton/" target="_blank">Linkedin Profile</a></li>
+				</ul>
+			</nav>
+			<main role="main">
+				<p>This website is intended to be a living document.</p>
+				<p>As I learn new skills and technologies I will add and change content, and restructure this personal website to act as both a portfolio to showcase my skills, and as a way of applying new techniques to a real project.</p>
+			</main>
+			<section class="box3">
+				<p>I am currently working on a Codecademy React course.</p>
+				<p>When complete, I intend to begin applying these skills by taking the sections of my CV and creating React components for each of them.  I'll then work out how I can present them in an interesting and interactive way.</p>
+			</section>
+			<section class="box4">
+				<img src="images/Screenshot 2024-03-01 160618.png" />
+			</section>
+			<section class="box5"></section>
+			<section class="box6"></section>
+			<section class="box7"></section>
+			<footer role="contentinfo">Copyright &copy Kristabel Hilton 2024</footer>
 		</div>
         <!-- <script src="js/index.js"></script> -->
     </body>
