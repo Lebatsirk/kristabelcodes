@@ -1,10 +1,10 @@
-/* kcodes_cv.css */
-/* Last update: 01/03/2024 */
+/* kcodes_reactforum.css */
+/* Last update: 04/03/2024 */
 
 body
 {
 	font-family: aptos, Arial, Tahoma, Verdana, Helvetica, sans-serif;
-	background-color: #DDFFFF;
+	background-color: #FFDDFF;
 }
 
 @media screen and (min-width: 851px) 
@@ -21,17 +21,10 @@ body
 			'header header'
 			'nav nav'
 			'main main'
-			'cv_name cv_name'
-			/* 'cv_contactdetails cv_contactdetails' */
-			/* 'cv_personalstatement cv_personalstatement' */
-			'cv_personalstatement cv_contactdetails'
-			/* 'cv_skills cv_skills' */
-			'cv_skills cv_education'
-			'cv_skills cv_volunteerexperience'
-			/* 'cv_workeexperience cv_education' */
-			/* 'cv_workeexperience cv_volunteerexperience' */
-			'cv_workeexperience cv_workeexperience'
-			'cv_interests cv_interests'
+			'box3 box4'
+			'box5 box5'
+			'box6 box6'
+			'box7 box7'
 			'footer footer';
 	}
 	nav ul 
@@ -56,21 +49,17 @@ body
 			'header'
 			'nav'
 			'main'
-			'cv_name'
-			'cv_contactdetails'
-			'cv_personalstatement'
-			'cv_skills'
-			'cv_education'
-			'cv_volunteerexperience'
-			'cv_workeexperience'
-			'cv_interests'
+			'box3'
+			'box4'
+			'box5'
+			'box6'
+			'box7'
 			'footer';
 	}
 	nav ul 
 	{
 		flex-direction: column;
 		align-items: center;
-		justify-content: space-between;
 	}
 }
 header
@@ -145,10 +134,14 @@ nav li
 {
 	padding: 0.5vw;
 }
+.box2 li
+{
+	list-style-type: default;
+	color: navy;
+}
 main
 {
     display: grid;
-	/* display: none; */
 	grid-area: main;
 	/* background-color: #ABCDEF; */
     background-color: #FFFFFF;
@@ -156,6 +149,79 @@ main
 	border-radius: 0.5vw;
     width: auto;
 	padding: 1vw;
+}
+.box3
+{
+    display: grid;
+	/* display: none; */
+	grid-area: box3;
+	/* background-color: #FFB3B3; */
+    /* background-color: #FFFFFF; */
+	/* border: solid 0.1vw #000000; */
+	/* border-radius: 0.5vw; */
+    width: auto;
+	/* line-height: 3vw; */
+	/* margin-right: 1vw; */
+	/* padding: 0.5vw; */
+	/* text-align: justify; */
+	/* text-align: right; */
+	/* font-style: italic; */
+	/* font-size: x-large; */
+	/* align-content: center; */
+}
+.box4
+{
+    display: grid;
+	/* display: none; */
+	grid-area: box4;
+	/* background-color: #E0B3FF; */
+    /* background-color: #FFFFFF; */
+	/* border: solid 0.1vw #000000; */
+	/* border-radius: 0.5vw; */
+    width: auto;
+	padding: 0.5vw;
+}
+.box5
+{
+    display: grid;
+	display: none;
+	grid-area: box5;
+	/* background-color: #E0B3FF; */
+    background-color: #FFFFFF;
+	border: solid 0.1vw #000000;
+	border-radius: 0.5vw;
+    width: auto;
+	padding: 0.5vw;
+}
+.box6
+{
+    display: grid;
+	display: none;
+	grid-area: box6;
+	/* background-color: #B3FFB3; */
+    background-color: #FFFFFF;
+	border: solid 0.1vw #000000;
+	border-radius: 0.5vw;
+    width: auto;
+	padding: 0.5vw;
+}
+.box6 li
+{
+	list-style-type: circle;
+	color: #008000;
+}
+.box7
+{
+    display: grid;
+	display: none;
+	grid-area: box7;
+	background-color: #B3B3E6;
+    /* background-color: #FFFFFF; */
+	border: solid 0.1vw #000000;
+	border-radius: 0.5vw;
+    width: auto;
+	padding: 0.5vw;
+	/* margin: 2vw; */
 }
 footer
 {
@@ -169,132 +235,4 @@ footer
 	padding: 0.5vw;
 	justify-content: center;
 	font-style: italic;
-}
-.cv_name
-{
-    display: grid;
-	/* display: none; */
-	grid-area: cv_name;
-	/* background-color: #E0B3FF; */
-    background-color: #FFFFFF;
-	font-family: simsun;
-	color: #000000;
-	font-size: x-large;
-	text-align: center;
-	/* border: solid 0.1vw #000000; */
-	/* border-radius: 0.5vw; */
-    width: auto;
-	padding: 0.5vw;
-}
-p
-{
-	padding: 0.5vw;
-	margin-left: 0.5vw;
-}
-.cv_heading 
-{
-	background-color: #E3E3E3;
-	color: #000000;
-	padding: 0.7vw;
-	border: solid 0.3vw #000000;
-	border-left: solid 1vw #555555;
-	font-family: simsun;
-	font-size: large;
-}
-.cv_contactdetails
-{
-    display: grid;
-	/* display: none; */
-	grid-area: cv_contactdetails;
-	/* background-color: #E0B3FF; */
-    background-color: #FFFFFF;
-	/* border: solid 0.1vw #000000; */
-	/* border-radius: 0.5vw; */
-    width: auto;
-	padding: 0.5vw;
-}
-.cv_personalstatement
-{
-    display: grid;
-	/* display: none; */
-	grid-area: cv_personalstatement;
-	/* background-color: #E0B3FF; */
-    background-color: #FFFFFF;
-	/* border: solid 0.1vw #000000; */
-	/* border-radius: 0.5vw; */
-    width: auto;
-	padding: 0.5vw;
-}
-.cv_skills
-{
-    display: grid;
-	/* display: none; */
-	grid-area: cv_skills;
-	/* background-color: #E0B3FF; */
-    background-color: #FFFFFF;
-	/* border: solid 0.1vw #000000; */
-	/* border-radius: 0.5vw; */
-    width: auto;
-	padding: 0.5vw;
-}
-.cv_education
-{
-    display: grid;
-	/* display: none; */
-	grid-area: cv_education;
-	/* background-color: #E0B3FF; */
-    background-color: #FFFFFF;
-	/* border: solid 0.1vw #000000; */
-	/* border-radius: 0.5vw; */
-    width: auto;
-	padding: 0.5vw;
-}
-.cv_volunteerexperience
-{
-    display: grid;
-	/* display: none; */
-	grid-area: cv_volunteerexperience;
-	/* background-color: #E0B3FF; */
-    background-color: #FFFFFF;
-	/* border: solid 0.1vw #000000; */
-	/* border-radius: 0.5vw; */
-    width: auto;
-	padding: 0.5vw;
-}
-.cv_workeexperience
-{
-    display: grid;
-	/* display: none; */
-	grid-area: cv_workeexperience;
-	/* background-color: #E0B3FF; */
-    background-color: #FFFFFF;
-	/* border: solid 0.1vw #000000; */
-	/* border-radius: 0.5vw; */
-    width: auto;
-	padding: 0.5vw;
-}
-.cv_interests
-{
-    display: grid;
-	/* display: none; */
-	grid-area: cv_interests;
-	/* background-color: #E0B3FF; */
-    background-color: #FFFFFF;
-	/* border: solid 0.1vw #000000; */
-	/* border-radius: 0.5vw; */
-    width: auto;
-	padding: 0.5vw;
-}
-ul .outerbullet
-{
-	font-weight: bold;
-}
-ul li .outerbullet
-{
-	list-style-type: solid;
-}
-ul li .innerbullet
-{
-	font-weight: normal;
-	list-style-type: '- ';	
 }
