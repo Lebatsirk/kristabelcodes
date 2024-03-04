@@ -1,0 +1,26 @@
+/* kcodes_fonts.css */
+/* Last update: 01/03/2024 */
+@font-face {
+  font-family: sketchfont;
+  src: url("../fonts/SketchMeFreeVersion-qxyl.ttf");
+}
+@font-face {
+  font-family: coretan;
+  src: url("../fonts/Coretan-YBP2.ttf");
+}
+@font-face {
+  font-family: marieeve;
+  src: url("../fonts/CfMarieEveRegular-6L5o.ttf");
+}
+@font-face {
+  font-family: pusekatt;
+  src: url("../fonts/Dkpusekatt-B1zx.otf");
+}
+@font-face {
+  font-family: aptos;
+  src: url("../fonts/aptos.ttf");
+}
+@font-face {
+  font-family: simsun;
+  src: url("../fonts/SIMSUN.ttf");
+}

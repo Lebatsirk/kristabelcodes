@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "homepage": "https://www.kristabelcodes.co.uk/kristabel-codes-react",
+  "short_name": "kristabel codes react",
+  "name": "React App for kristabelcodes.co.uk",
   "icons": [
     {
       "src": "favicon.ico",

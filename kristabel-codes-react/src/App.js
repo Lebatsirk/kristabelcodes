@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+// import "./css/App.css";
+import "./css/kcodes.css";
+import "./css/kcodes_fonts.css";
+import "./css/kcodes_cv.css";
+
+import Header from "./Header.js";
+import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header siteTitle="kristabel codes" />
+      <Navbar />
+      <Footer />
     </div>
   );
 }
