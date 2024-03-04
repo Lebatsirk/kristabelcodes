@@ -4,7 +4,7 @@
 body
 {
 	font-family: aptos, Arial, Tahoma, Verdana, Helvetica, sans-serif;
-	background-color: #FFDDFF;
+	background-color: #DDFFFF;
 }
 
 @media screen and (min-width: 851px) 
@@ -167,7 +167,7 @@ main
 	/* text-align: right; */
 	/* font-style: italic; */
 	/* font-size: x-large; */
-	/* align-content: center; */
+	align-content: start;
 }
 .box4
 {
@@ -180,6 +180,7 @@ main
 	/* border-radius: 0.5vw; */
     width: auto;
 	padding: 0.5vw;
+	align-content: start;
 }
 .box5
 {
@@ -192,6 +193,7 @@ main
 	border-radius: 0.5vw;
     width: auto;
 	padding: 0.5vw;
+	align-content: start;
 }
 .box6
 {
@@ -204,6 +206,7 @@ main
 	border-radius: 0.5vw;
     width: auto;
 	padding: 0.5vw;
+	align-content: start;
 }
 .box6 li
 {
@@ -222,6 +225,7 @@ main
     width: auto;
 	padding: 0.5vw;
 	/* margin: 2vw; */
+	align-content: start;
 }
 footer
 {
