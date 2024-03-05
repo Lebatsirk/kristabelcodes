@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "homepage": "https://www.kristabelcodes.co.uk/ca_ravenous",
+  "short_name": "kristabel codes react",
+  "name": "Codecademy Ravenous React App for kristabelcodes.co.uk",
   "icons": [
     {
       "src": "favicon.ico",
