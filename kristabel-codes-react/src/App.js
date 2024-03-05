@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-// import "./css/App.css";
 import "./css/kcodes.css";
 import "./css/kcodes_fonts.css";
 import "./css/kcodes_cv.css";
