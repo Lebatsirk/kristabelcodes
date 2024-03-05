@@ -1,0 +1,74 @@
+@font-face {
+  font-family: sketchfont;
+  src: url("./fonts/SketchMeFreeVersion-qxyl.ttf");
+}
+@font-face {
+  font-family: coretan;
+  src: url("./fonts/Coretan-YBP2.ttf");
+}
+@font-face {
+  font-family: marieeve;
+  src: url("./fonts/CfMarieEveRegular-6L5o.ttf");
+}
+@font-face {
+  font-family: pusekatt;
+  src: url("./fonts/Dkpusekatt-B1zx.otf");
+}
+@font-face {
+  font-family: aptos;
+  src: url("./fonts/aptos.ttf");
+}
+@font-face {
+  font-family: simsun;
+  src: url("./fonts/SIMSUN.ttf");
+}
+@font-face {
+  font-family: monterey;
+  src: url("./fonts/MontereyFLF.ttf");
+}
+@font-face {
+  font-family: avenue;
+  src: url("./fonts/AvenueX-Regular.otf");
+}
+@font-face {
+  font-family: labtop;
+  src: url("./fonts/LABTSEC_.ttf");
+}
+
+.App {
+  font-family: aptos, Arial, Tahoma, Verdana, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #9e2187;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* display: grid; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000000;
+}
+
+/* .App-logo { */
+/* height: 40vmin; */
+/* pointer-events: none; */
+/* } */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

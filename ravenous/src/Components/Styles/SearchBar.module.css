@@ -1,0 +1,7 @@
+.searchContainer {
+  background-color: rgb(13, 183, 50);
+  border: 1vw solid rgb(13, 183, 50);
+  border-radius: 1vw;
+  padding: 1vw;
+  height: min-content;
+}

@@ -1,52 +1,46 @@
 /* kcodes_fonts.css */
 /* Last update: 01/03/2024 */
-@font-face 
-{
-	font-family: sketchfont;
-	src: url("../fonts/SketchMeFreeVersion-qxyl.ttf");
+@font-face {
+  font-family: sketchfont;
+  src: url("../fonts/SketchMeFreeVersion-qxyl.ttf");
 }
-@font-face
-{
-		font-family: coretan;
-		src: url("../fonts/Coretan-YBP2.ttf");
+@font-face {
+  font-family: coretan;
+  src: url("../fonts/Coretan-YBP2.ttf");
 }
-@font-face
-{
-		font-family: marieeve;
-		src: url("../fonts/CfMarieEveRegular-6L5o.ttf");
+@font-face {
+  font-family: marieeve;
+  src: url("../fonts/CfMarieEveRegular-6L5o.ttf");
 }
-@font-face
-{
-		font-family: pusekatt;
-		src: url("../fonts/Dkpusekatt-B1zx.otf");
+@font-face {
+  font-family: pusekatt;
+  src: url("../fonts/Dkpusekatt-B1zx.otf");
 }
-@font-face
-{
-		font-family: foretrak;
-		src: url("../fonts/FortrackRegular-6G8v.otf");
+@font-face {
+  font-family: foretrak;
+  src: url("../fonts/FortrackRegular-6G8v.otf");
 }
-@font-face
-{
-		font-family: foretrakitalic;
-		src: url("../fonts/FortrackItalic-5zBj.otf");
+@font-face {
+  font-family: foretrakitalic;
+  src: url("../fonts/FortrackItalic-5zBj.otf");
 }
-@font-face
-{
-		font-family: pusingkali;
-		src: url("../fonts/Pusingkali-BWxnB.ttf");
+@font-face {
+  font-family: pusingkali;
+  src: url("../fonts/Pusingkali-BWxnB.ttf");
 }
-@font-face
-{
-		font-family: schoolholic;
-		src: url("../fonts/SchoolHolic2SchoolHolic2-d9A8R.ttf");
+@font-face {
+  font-family: schoolholic;
+  src: url("../fonts/SchoolHolic2SchoolHolic2-d9A8R.ttf");
 }
-@font-face
-{
-		font-family: aptos;
-		src: url("../fonts/aptos.ttf");
+@font-face {
+  font-family: aptos;
+  src: url("../fonts/aptos.ttf");
 }
-@font-face
-{
-		font-family: simsun;
-		src: url("../fonts/SIMSUN.ttf");
+@font-face {
+  font-family: simsun;
+  src: url("../fonts/SIMSUN.ttf");
+}
+@font-face {
+  font-family: monterey;
+  src: url("fonts/MontereyFLF.ttf");
 }

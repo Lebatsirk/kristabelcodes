@@ -24,3 +24,7 @@
   font-family: simsun;
   src: url("../fonts/SIMSUN.ttf");
 }
+@font-face {
+  font-family: monterey;
+  src: url("fonts/MontereyFLF.ttf");
+}

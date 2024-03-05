@@ -1,0 +1,40 @@
+.businessContainer {
+  text-align: left;
+  border: 0.5rem solid rgb(13, 183, 50);
+  border-radius: 1vw;
+  background-color: #ddffff;
+  margin: 1vw;
+  padding: 1vw;
+  width: 40vw;
+  align-content: start;
+  text-align: center;
+}
+
+.businessName {
+  font-family: monterey;
+  font-size: xxx-large;
+  /* margin: 0vw; */
+  /* padding: 0vw; */
+}
+
+.businessImg {
+  max-width: 30vw;
+}
+
+.businessAddress {
+  font-size: smaller;
+}
+/*
+. businessCity {
+}
+. businessState {
+}
+. businessZipcode {
+}
+. businessCategory {
+}
+. businessRating {
+}
+. businessReview {
+}
+ */
