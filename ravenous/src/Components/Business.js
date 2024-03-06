@@ -12,6 +12,7 @@ const business = {
   category: "Italian",
   rating: 4.3,
   reviewCount: 126,
+  altText: "Picture representing business",
 };
 
 /* const business = [
@@ -25,6 +26,7 @@ const business = {
     category: "Italian",
     rating: 4.3,
     reviewCount: 126,
+    altText: "Picture representing business",
   },
   {
     image: "beanquesadilla.jpeg",
@@ -36,6 +38,7 @@ const business = {
     category: "Mexican",
     rating: 4.8,
     reviewCount: 837,
+    altText: "Picture representing business",
   },
   {
     image: "chickpeacurry.jpeg",
@@ -47,6 +50,7 @@ const business = {
     category: "Indian",
     rating: 4.2,
     reviewCount: 94,
+    altText: "Picture representing business",
   },
   {
     image: "mushroomburger.jpeg",
@@ -58,6 +62,7 @@ const business = {
     category: "Burgers",
     rating: 3.9,
     reviewCount: 224,
+    altText: "Picture representing business",
   },
   {
     image: "tofuvegstirfry.jpeg",
@@ -69,6 +74,7 @@ const business = {
     category: "Chinese",
     rating: 4.5,
     reviewCount: 601,
+    altText: "Picture representing business",
   },
   {
     image: "tofuvegthaicurry.jpeg",
@@ -80,6 +86,7 @@ const business = {
     category: "Thai",
     rating: 4.9,
     reviewCount: 454,
+    altText: "Picture representing business",
   },
 ]; */
 
@@ -90,6 +97,7 @@ function Business() {
       <img
         className={styles.businessImg}
         src={"images/" + business.image}
+        alt={business.altText}
       />
       <p className={styles.businessAddress}>
         Find us at: {business.address}, {business.city}, {business.state},{" "}
