@@ -24,6 +24,11 @@ function Navbar(props) {
             linktext="Projects"
             link="projects.html"
           />
+          <NavbarItem
+            linktext="GitHub"
+            link="https://github.com/Lebatsirk/"
+            target="_blank"
+          />
           <NavbarItem />
         </ul>
       </nav>
