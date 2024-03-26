@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./Styles/Business.module.css";
+// import styles from "./Styles/Business.module.css";
 
 const business = {
   image: "veganpizza.jpeg",
@@ -92,10 +92,13 @@ const business = {
 
 function Business() {
   return (
-    <div className={styles.businessContainer}>
-      <p className={styles.businessName}>{business.name}</p>
+    // <div className={styles.businessContainer}>
+    <div className="container border border-danger rounded bg-danger">
+      {/* <p className={styles.businessName}>{business.name}</p> */}
+      <p className="">{business.name}</p>
       <img
-        className={styles.businessImg}
+        // className={styles.businessImg}
+        className=""
         src={
           process.env.PUBLIC_URL +
           process.env.REACT_APP_IMAGE_PATH +
@@ -103,13 +106,17 @@ function Business() {
         }
         alt={business.altText}
       />
-      <p className={styles.businessAddress}>
+      {/* <p className={styles.businessAddress}> */}
+      <p className="">
         Find us at: {business.address}, {business.city}, {business.state},{" "}
         {business.zipcode}
       </p>
-      <p className={styles.businessCategory}>Cuisine: {business.category}</p>
-      <p className={styles.businessRating}>Rating: {business.rating}</p>
-      <p className={styles.businessReview}>Reviews: {business.reviewCount}</p>
+      {/* <p className={styles.businessCategory}> */}
+      <p className="">Cuisine: {business.category}</p>
+      {/* <p className={styles.businessRating}> */}
+      <p className="">Rating: {business.rating}</p>
+      {/* <p className={styles.businessReview}> */}
+      <p className="">Reviews: {business.reviewCount}</p>
     </div>
   );
 }

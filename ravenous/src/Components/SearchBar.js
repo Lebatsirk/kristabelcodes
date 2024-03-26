@@ -1,9 +1,10 @@
 import React from "react";
-import styles from "./Styles/SearchBar.module.css";
+// import styles from "./Styles/SearchBar.module.css";
 
 function SearchBar() {
   return (
-    <div className={styles.searchContainer}>
+    // <div className={styles.searchContainer}>
+    <div className="container bg-warning">
       <p>Find a business...</p>
       <input
         type="text"
