@@ -96,7 +96,11 @@ function Business() {
       <p className={styles.businessName}>{business.name}</p>
       <img
         className={styles.businessImg}
-        src={"images/" + business.image}
+        src={
+          process.env.PUBLIC_URL +
+          process.env.REACT_APP_IMAGE_PATH +
+          business.image
+        }
         alt={business.altText}
       />
       <p className={styles.businessAddress}>
