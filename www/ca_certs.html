@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/kcodes_fonts.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/kcodes.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/kcodes_ca.css"
+    />
+    <title>kristabel codes</title>
+  </head>
+  <body>
+    <!-- ARIA landmark roles to consider: banner, search, navigation, form, main, region, complementary, contentinfo -->
+
+    <div class="outer_container">
+      <header role="banner"><h1 class="pagetitle">kristabel codes</h1></header>
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a
+              class="navbutton"
+              role="button"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="navbutton"
+              role="button"
+              href="cv.html"
+              >View/Download CV</a
+            >
+          </li>
+          <li>
+            <a
+              class="navbutton"
+              role="button"
+              href="https://www.linkedin.com/in/kristabel-hilton/"
+              target="_blank"
+              >Linkedin Profile</a
+            >
+          </li>
+          <li>
+            <a
+              class="navbutton"
+              role="button"
+              href="projects.html"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              class="navbutton"
+              role="button"
+              href="https://github.com/Lebatsirk/"
+              target="_blank"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <main role="main"></main>
+      <section class="cert_slideshow_container">
+        <div class="certs fade">
+          <div class="cert_number">1 / 4</div>
+          <img
+            src="./codecademy/cert_images/kh_software_design_principles.png"
+          />
+          <div class="caption">
+            Codecademy Certificate for Software Design Principles
+          </div>
+        </div>
+
+        <div class="certs fade">
+          <div class="cert_number">2 / 4</div>
+          <img src="./codecademy/cert_images/kh_python3.png" />
+          <div class="caption">Codecademy Certificate for Python 3</div>
+        </div>
+
+        <div class="certs fade">
+          <div class="cert_number">3 / 4</div>
+          <img src="./codecademy/cert_images/kh_cloud_computing.png" />
+          <div class="caption">Codecademy Certificate for Cloud Computing</div>
+        </div>
+
+        <div class="certs fade">
+          <div class="cert_number">4 / 4</div>
+          <img src="./codecademy/cert_images/kh_css_in_js.png" />
+          <div class="caption">Codecademy Certificate for CSS in JS</div>
+        </div>
+
+        <a
+          class="prev"
+          onclick="changeSlide(-1)"
+          >&#10094;</a
+        >
+        <a
+          class="next"
+          onclick="changeSlide(1)"
+          >&#10095;</a
+        >
+      </section>
+      <section class="thumbnails">
+        <span
+          class="dot"
+          onclick="showSlide(1)"
+        ></span>
+        <span
+          class="dot"
+          onclick="showSlide(2)"
+        ></span>
+        <span
+          class="dot"
+          onclick="showSlide(3)"
+        ></span>
+        <span
+          class="dot"
+          onclick="showSlide(4)"
+        ></span>
+      </section>
+      <!-- <section class="box3"></section>
+      <section class="box4"></section>
+      <section class="box5"></section>
+      <section class="box6"></section>
+      <section class="box7"></section> -->
+      <footer role="contentinfo">Copyright &copy Kristabel Hilton 2024</footer>
+    </div>
+    <script src="./ca_certs.js"></script>
+  </body>
+</html>
