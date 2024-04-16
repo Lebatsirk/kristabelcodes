@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<?php include ("head.php"); ?>
+<!-- <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover" />
+    <link rel="stylesheet" type="text/css" href="css/kcodes_fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/kcodes.css" />
+    <title>kristabel codes</title>
+</head> -->
+
+<body>
+    <!-- ARIA landmark roles to consider: banner, search, navigation, form, main, region, complementary, contentinfo -->
+
+    <div class="outer_container">
+        <?php include ("header.php"); ?>
+        <!-- <header role="banner">
+            <h1 class="pagetitle">kristabel codes</h1>
+        </header> -->
+        <?php include ("nav.php"); ?>
+        <!-- <nav role="navigation">
+            <ul>
+                <li>
+                    <a class="navbutton" role="button" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="navbutton" role="button" href="cv.html">View/Download CV</a>
+                </li>
+                <li>
+                    <a class="navbutton" role="button" href="https://www.linkedin.com/in/kristabel-hilton/"
+                        target="_blank">Linkedin Profile</a>
+                </li>
+                <li>
+                    <a class="navbutton" role="button" href="projects.html">Projects</a>
+                </li>
+                <li>
+                    <a class="navbutton" role="button" href="https://github.com/Lebatsirk/" target="_blank">GitHub</a>
+                </li>
+            </ul>
+        </nav> -->
+        <?php include ("main.php"); ?>
+        <!-- <main role="main">
+            <p>This website is intended to be a living document.</p>
+            <p>
+                As I learn new skills and technologies I will add and change content,
+                and restructure this personal website to act as both a portfolio to
+                showcase my skills, and as a way of applying new techniques to a real
+                project.
+            </p>
+        </main> -->
+
+        <?php include ("box3.php"); ?>
+        <!-- <section class="box3">
+            <p>I am currently working on a Codecademy React course.</p>
+            <p>
+                When complete, I intend to begin applying these skills by taking the
+                sections of my CV and creating React components for each of them. I'll
+                then work out how I can present them in an interesting and interactive
+                way.
+            </p>
+        </section> -->
+
+        <?php include ("box4.php"); ?>
+        <!-- <section class="box4">
+            <img src="images/Screenshot 2024-03-01 160618.png" />
+        </section> -->
+        <!-- <section class="box5"></section>
+        <section class="box6"></section>
+        <section class="box7"></section> -->
+        <?php include ("footer.php"); ?>
+        <!-- <footer role="contentinfo">Copyright &copy Kristabel Hilton 2024</footer> -->
+    </div>
+    <!-- <script src="js/index.js"></script> -->
+</body>
+
+</html>
