@@ -10,3 +10,5 @@ logger.csv
 www/codecademy/certificates/*
 www/_kh556/*
 www/jquery/*
+www/new/*
+www/ca_certs.*
