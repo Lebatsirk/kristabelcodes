@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!-- index.html -->
-<!-- Last update: 02/03/2024 -->
 <html>
   <head>
     <meta charset="utf-8" />
@@ -9,61 +7,61 @@
       content="initial-scale=1, width=device-width, viewport-fit=cover"
     />
     <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gruppo&family=Amatic+SC:wght@400;700&family=Dosis:wght@200..800&family=Unbounded:wght@200..900&family=Nothing+You+Could+Do&family=Nova+Slim&family=Comfortaa:wght@300..700&family=Lugrasimo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Mono&family=Ojuju:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
-      type="text/css"
-      href="css/kcodes_fonts.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="css/kcodes.css"
+      href="resources/css/kcodes.css"
     />
     <title>kristabel codes</title>
   </head>
   <body>
-    <!-- ARIA landmark roles to consider: banner, search, navigation, form, main, region, complementary, contentinfo -->
-
-    <div class="outer_container">
-      <header role="banner"><h1 class="pagetitle">kristabel codes</h1></header>
-      <nav role="navigation">
+    <div
+      id="outer_container"
+      role="grid"
+    >
+      <header
+        role="banner"
+        id="header"
+      >
+        <h1 id="sitename">
+          <a href="index.html">kristabel codes</a>
+        </h1>
+      </header>
+      <nav
+        role="navigation"
+        id="nav"
+      >
         <ul>
           <li>
-            <a
-              class="navbutton"
-              role="button"
-              href="index.html"
-              >Home</a
-            >
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="cv.html">View/Download CV</a>
           </li>
           <li>
             <a
-              class="navbutton"
-              role="button"
-              href="cv.html"
-              >View/Download CV</a
-            >
-          </li>
-          <li>
-            <a
-              class="navbutton"
-              role="button"
               href="https://www.linkedin.com/in/kristabel-hilton/"
               target="_blank"
               >Linkedin Profile</a
             >
           </li>
           <li>
-            <a
-              class="navbutton"
-              role="button"
-              href="projects.html"
-              >Projects</a
-            >
+            <a href="projects.html">Projects</a>
           </li>
           <li>
             <a
-              class="navbutton"
-              role="button"
               href="https://github.com/Lebatsirk/"
               target="_blank"
               >GitHub</a
@@ -71,7 +69,7 @@
           </li>
         </ul>
       </nav>
-      <main role="main">
+      <aside role="complementary">
         <p>This website is intended to be a living document.</p>
         <p>
           As I learn new skills and technologies I will add and change content,
@@ -79,8 +77,8 @@
           showcase my skills, and as a way of applying new techniques to a real
           project.
         </p>
-      </main>
-      <section class="box3">
+      </aside>
+      <main role="main">
         <p>I am currently working on a Codecademy React course.</p>
         <p>
           When complete, I intend to begin applying these skills by taking the
@@ -88,15 +86,14 @@
           then work out how I can present them in an interesting and interactive
           way.
         </p>
-      </section>
-      <section class="box4">
-        <img src="images/Screenshot 2024-03-01 160618.png" />
-      </section>
-      <section class="box5"></section>
-      <section class="box6"></section>
-      <section class="box7"></section>
-      <footer role="contentinfo">Copyright &copy Kristabel Hilton 2024</footer>
+        <br /><br />
+      </main>
+      <footer
+        role="contentinfo"
+        id="footer"
+      >
+        Copyright &copy Kristabel Hilton 2024
+      </footer>
     </div>
-    <!-- <script src="js/index.js"></script> -->
   </body>
 </html>

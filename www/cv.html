@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!-- cv.html -->
-<!-- Last update: 02/03/2024 -->
 <html>
   <head>
     <meta charset="utf-8" />
@@ -9,335 +7,401 @@
       content="initial-scale=1, width=device-width, viewport-fit=cover"
     />
     <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gruppo&family=Amatic+SC:wght@400;700&family=Dosis:wght@200..800&family=Unbounded:wght@200..900&family=Nothing+You+Could+Do&family=Nova+Slim&family=Comfortaa:wght@300..700&family=Lugrasimo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Mono&family=Ojuju:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
-      type="text/css"
-      href="css/kcodes_fonts.css"
     />
     <link
       rel="stylesheet"
       type="text/css"
-      href="css/kcodes_cv.css"
+      href="resources/css/kcodes.css"
     />
-    <title>kristabel codes - CV</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="resources/css/kcodes_cv.css"
+    />
+    <title>kristabel codes</title>
   </head>
   <body>
-    <!-- ARIA landmark roles to consider: banner, search, navigation, form, main, region, complementary, contentinfo -->
-
-    <div class="outer_container">
-      <header role="banner"><h1 class="pagetitle">kristabel codes</h1></header>
-      <nav role="navigation">
+    <div
+      id="outer_container"
+      role="grid"
+    >
+      <header
+        role="banner"
+        id="header"
+      >
+        <h1 id="sitename">kristabel codes</h1>
+      </header>
+      <nav
+        role="navigation"
+        id="nav"
+      >
         <ul>
           <li>
-            <a
-              class="navbutton"
-              role="button"
-              href="index.html"
-              >Home</a
-            >
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="cv.html">View/Download CV</a>
           </li>
           <li>
             <a
-              class="navbutton"
-              role="button"
-              href="cv.html"
-              >View/Download CV</a
-            >
-          </li>
-          <li>
-            <a
-              class="navbutton"
-              role="button"
               href="https://www.linkedin.com/in/kristabel-hilton/"
               target="_blank"
               >Linkedin Profile</a
             >
           </li>
           <li>
+            <a href="projects.html">Projects</a>
+          </li>
+          <li>
             <a
-              class="navbutton"
-              role="button"
-              href="projects.html"
-              >Projects</a
+              href="https://github.com/Lebatsirk/"
+              target="_blank"
+              >GitHub</a
             >
           </li>
         </ul>
       </nav>
-      <main role="main">
-        <a href="files/Kristabel_Hilton_CV_anon.pdf">Download CV (.pdf)</a>
-        <a href="files/Kristabel_Hilton_CV_anon.docx">Download CV (.docx)</a>
+      <aside role="complementary">
+        <a href="../files/Kristabel_Hilton_CV_anon.pdf">Download CV (.pdf)</a>
+        <a href="../files/Kristabel_Hilton_CV_anon.docx">Download CV (.docx)</a>
+      </aside>
+      <main
+        role="main"
+        id="cv_container"
+      >
+        <section class="cv_name">Kristabel Hilton</section>
+        <section class="cv_contactdetails">
+          <div class="cv_heading">Contact details</div>
+          <div class="cv_contactimages">
+            <img
+              src="resources/images/email.png"
+              alt="Image showing email address kristabel dot hilton at gmail dot com"
+            />
+            <img
+              src="resources/images/linkedin.png"
+              alt="Image showing linked in profile for Kristabel Hilton that can also be accessed from the link in the menu"
+            />
+          </div>
+        </section>
+        <section class="cv_personalstatement">
+          <div class="cv_heading">Personal statement</div>
+          <p>
+            Having recently decided to return to work following a break to raise
+            my family, my recent study has enriched my previously self-taught
+            skills, providing background understanding to support those skills
+            and allowing me to gain up-to-date knowledge of current practices.
+            Varying levels of technical experience and theoretical understanding
+            were gained during my education, previous employment, and personal
+            projects.
+          </p>
+          <p>
+            A fundamental grasp of object-oriented and procedural programming
+            combined with my proven ability to independently and rapidly acquire
+            and develop new skills puts me in an ideal position to apply myself
+            to a variety of roles. Additionally, the soft skills developed
+            during my time parenting, volunteering, and studying will no doubt
+            be invaluable during my future career.
+          </p>
+        </section>
+        <section class="cv_skills">
+          <div class="cv_heading">Skills</div>
+          <div class="cv_skills_items">
+            <ul>
+              <li>Attention to detail</li>
+              <li>Time management & organisation</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Java <span class="info">(inc. Netbeans IDE)</span></li>
+              <li>Python</li>
+              <li>
+                SQL <span class="info">(inc. MySQL, PostgreSQL, MariaDB)</span>
+              </li>
+              <li>Git</li>
+              <li>PHP</li>
+              <li>JQuery</li>
+              <li>Wireframing</li>
+              <li>
+                Command line <span class="info">(Windows/Linux/Git)</span>
+              </li>
+              <li>Microsoft Office Word, Excel, Outlook</li>
+              <li>ASP</li>
+              <li>VBScript</li>
+              <li>Entity Relationship Diagrams (ERDs)</li>
+              <li>Unified Modelling Language (UML)</li>
+              <li>Object Constraint Language (OCL)</li>
+              <li>Algorithms <span class="info">(inc. complexity)</span></li>
+              <li>
+                Cordova <span class="info">(for Android hybrid webapp)</span>
+              </li>
+              <li>
+                Cloud technology
+                <span class="info"
+                  >(understanding of AWS, pros/cons, scalability, elasticity,
+                  reliability, availability zones, security)</span
+                >
+              </li>
+              <li>
+                Open Stack <span class="info">(practical experience)</span>
+              </li>
+              <li>
+                REST APIs, SOAP, web services
+                <span class="info"
+                  >(theory & some practical experience using Postman)</span
+                >
+              </li>
+              <li>
+                Understanding of security inc. encryption, confidentiality, GDPR
+              </li>
+              <li>
+                Machine learning and AI
+                <span class="info">(inc. Keras Tensorflow and Jupyter)</span>
+              </li>
+              <li>Agile development <span class="info">(theory)</span></li>
+              <li>
+                Software engineering
+                <span class="info"
+                  >(understanding of architecture, design patterns inc.
+                  MVC/factory/adapter, testing inc. black/white box, UAT,
+                  system)</span
+                >
+              </li>
+              <li>
+                Requirements analysis
+                <span class="info"
+                  >(FR/NFRs, producing analysis/object/class/sequence/state
+                  chart diagrams)</span
+                >
+              </li>
+              <li>
+                Project management <span class="info">(inc. Gantt charts)</span>
+              </li>
+              <li>
+                Project Lifecycle
+                <span class="info">(theory and practical)</span>
+              </li>
+              <li>
+                UI/UX
+                <span class="info"
+                  >(inc. accessibility/ARIA standards, quality attribute
+                  scenarios)</span
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="cv_education">
+          <div class="cv_heading">Education</div>
+          <div class="cv_education_items">
+            <ul>
+              <li>
+                <b>The Open University (09/2018-12/2023)</b><br />BSc (hons)
+                Computing and IT (software), First-class honours
+              </li>
+              <br />
+              <li>
+                <b>University of Wales, Aberystwyth (09/1996-06/1999)</b
+                ><br />BSc (hons) Genetics, 2:2
+              </li>
+              <br />
+              <li>
+                <b>N.E.W. College, Worcestershire (09/1994-06/1996)</b
+                ><br />A-levels: Biology, Physics, Chemistry
+              </li>
+              <br />
+              <li>
+                <b>Studley High School, Warwickshire (09/1992-06/1994)</b
+                ><br />GCSEs: 8x A*-C, 2x D
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="cv_volunteerexperience">
+          <div class="cv_heading">Volunteer experience</div>
+          <div class="cv_volunteerexperience_items">
+            <ul>
+              <li>
+                <b>Age UK (01/2017-08/2020)</b><br />
+                Visited older people in their homes as part of Home from
+                Hospital team, supporting clients with regaining their
+                independence after a hospital stay by performing varied tasks as
+                required
+              </li>
+              <br />
+
+              <li>
+                <b>Home Start UK (01/2017-08/2020)</b><br />
+                Looked after children in a group setting so parents could
+                receive support from staff/other parents and visited assigned
+                family, offering varied support depending on their needs
+              </li>
+              <br />
+              <li>
+                <b
+                  >Parents and Friends Association, St Luke’s First School
+                  (~2011-2014)</b
+                ><br />
+                Worked within a team to plan and carry out craft activities,
+                sponsored/charity events, and fetes with children, teachers, and
+                families. Took on leadership role as PFA Chair in 2013/4.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="cv_workeexperience">
+          <div class="cv_heading">Work experience</div>
+          <div class="cv_workeexperience_items">
+            <ul>
+              <li class="outerbullet">
+                Festive Colleague, Tesco (11/2023-12/2023)
+                <ul>
+                  <li class="innerbullet">
+                    Temporary part-time role working nights to replenish stock
+                    during the busy festive period
+                  </li>
+                </ul>
+              </li>
+              <br />
+
+              <li class="outerbullet">
+                Systems Developer, Wrox Press (01/2002-12/2002)
+                <ul>
+                  <li class="innerbullet">
+                    Full project lifecycle development of internal and external
+                    websites
+                  </li>
+                  <li class="innerbullet">
+                    Worked as part of a team to complete integration of
+                    e-commerce application
+                  </li>
+                  <li class="innerbullet">
+                    Individual projects included creation of a new internal
+                    content management system where I worked alone to gather
+                    requirements, design, build, and test the solution, liaising
+                    with the editorial team throughout
+                  </li>
+                  <li class="innerbullet">
+                    Used HTML, CSS, JavaScript, ASP, and SQL skills (self-taught
+                    from existing code, internet, and textbooks) to create
+                    database-driven dynamic content
+                  </li>
+                </ul>
+              </li>
+              <br />
+
+              <li class="outerbullet">
+                Support Developer, Wrox Press (05/2001-12/2001)
+                <ul>
+                  <li class="innerbullet">
+                    Built and maintained internal and external websites as part
+                    of IT team supporting editorial and customer service groups
+                  </li>
+                </ul>
+              </li>
+              <br />
+
+              <li class="outerbullet">
+                Internet Developer, just-sites.com (08/2000-05/2001)
+                <ul>
+                  <li class="innerbullet">
+                    Performed basic networking, technical troubleshooting, and
+                    software installation as part of IT team
+                  </li>
+                  <li class="innerbullet">
+                    Created and maintained website using HTML and CSS, employing
+                    version control to ensure integrity of data
+                  </li>
+                  <li class="innerbullet">
+                    Learned Visual Basic from existing code and applied
+                    knowledge to relevant tasks
+                  </li>
+                </ul>
+              </li>
+              <br />
+
+              <li class="outerbullet">
+                Website Operator, just-sites.com (06/2000-07/2000)
+                <ul>
+                  <li class="innerbullet">
+                    Performed internet searches for relevant content and entered
+                    findings into web form, adding HTML links and formatting
+                  </li>
+                  <li class="innerbullet">
+                    Maintained website pages using HTML with Dreamweaver 3 for
+                    version control (learnt on the job)
+                  </li>
+                  <li class="innerbullet">
+                    Optimised images for enhanced site performance using Adobe
+                    ImageReady 2.0
+                  </li>
+                </ul>
+              </li>
+              <br />
+
+              <li class="outerbullet">
+                Casework Support Secretary, The Law Society (12/1999-06/2000)
+                <ul>
+                  <li class="innerbullet">
+                    Audio typing of varied correspondence as part of a team
+                  </li>
+                  <li class="innerbullet">
+                    Requested by one caseworker to be the sole typist assigned
+                    to their work due to my efficiency, accuracy, and initiative
+                  </li>
+                  <li class="innerbullet">
+                    Worked beyond the scope of the role to help colleagues with
+                    IT problems and work with inhouse 'ROAD' database
+                  </li>
+                  <li class="innerbullet">
+                    Presented with 'Customer Focus Award' (02/2000) for
+                    exceeding expectations
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="cv_interests">
+          <div class="cv_heading">Interests / Achievements</div>
+          <div class="cv_interests_items">
+            <ul>
+              <li>
+                Carbon Literacy Project course, October 2022 (cert.no. 00045670)
+              </li>
+              <li>
+                Distance running / ultra hikes (since 2017), including
+                London2Brighton 100km hike, May ‘23
+              </li>
+              <li>
+                Listening to audiobooks (particularly sci-fi/thriller/horror)
+              </li>
+              <li>Camping and outdoor pursuits such as ‘Go Ape’</li>
+              <li>
+                Playing PC and mobile games (favourite genres are simulation,
+                MMORPGs, and puzzles)
+              </li>
+            </ul>
+          </div>
+        </section>
       </main>
-      <section class="cv_name">Kristabel Hilton</section>
-      <section class="cv_contactdetails">
-        <div class="cv_heading">Contact details</div>
-        <p>
-          <img
-            src="images/email.png"
-            alt="Image showing email address kristabel dot hilton at gmail dot com"
-          />
-        </p>
-        <p>
-          <img
-            src="images/linkedin.png"
-            alt="Image showing linked in profile for Kristabel Hilton that can also be accessed from the link in the menu"
-          />
-        </p>
-      </section>
-      <section class="cv_personalstatement">
-        <div class="cv_heading">Personal statement</div>
-        <p>
-          Having recently decided to return to work following a break to raise
-          my family, my recent study has enriched my previously self-taught
-          skills, providing background understanding to support those skills and
-          allowing me to gain up-to-date knowledge of current practices. Varying
-          levels of technical experience and theoretical understanding were
-          gained during my education, previous employment, and personal
-          projects. A fundamental grasp of object-oriented and procedural
-          programming combined with my proven ability to independently and
-          rapidly acquire and develop new skills puts me in an ideal position to
-          apply myself to a variety of roles. Additionally, the soft skills
-          developed during my time parenting, volunteering, and studying will no
-          doubt be invaluable during my future career.
-        </p>
-      </section>
-      <section class="cv_skills">
-        <div class="cv_heading">Skills</div>
-        <ul>
-          <li>Attention to detail</li>
-          <li>Time management & organisation</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Java (inc. Netbeans IDE)</li>
-          <li>Python</li>
-          <li>SQL (inc. MySQL, PostgreSQL, MariaDB)</li>
-          <li>Git</li>
-          <li>PHP</li>
-          <li>JQuery</li>
-          <li>Wireframing</li>
-          <li>Command line (Windows/Linux/Git)</li>
-          <li>Microsoft Office Word, Excel, Outlook</li>
-          <li>ASP</li>
-          <li>VBScript</li>
-          <li>Entity Relationship Diagrams (ERDs)</li>
-          <li>Unified Modelling Language (UML)</li>
-          <li>Object Constraint Language (OCL)</li>
-          <li>Algorithms (inc. complexity)</li>
-          <li>Cordova (for Android hybrid webapp)</li>
-          <li>
-            Cloud technology (understanding of AWS, pros/cons, scalability,
-            elasticity, reliability, availability zones, security)
-          </li>
-          <li>Open Stack (practical experience)</li>
-          <li>
-            REST APIs, SOAP, web services (theory & some practical experience
-            using Postman)
-          </li>
-          <li>
-            Understanding of security inc. encryption, confidentiality, GDPR
-          </li>
-          <li>Machine learning and AI (inc. Keras Tensorflow and Jupyter)</li>
-          <li>Agile development (theory)</li>
-          <li>
-            Software engineering (understanding of architecture, design patterns
-            inc. MVC/factory/adapter, testing inc. black/white box, UAT, system)
-          </li>
-          <li>
-            Requirements analysis (FR/NFRs, producing
-            analysis/object/class/sequence/state chart diagrams)
-          </li>
-          <li>Project management (inc. Gantt charts)</li>
-          <li>Project Lifecycle (theory and practical)</li>
-          <li>
-            UI/UX (inc. accessibility/ARIA standards, quality attribute
-            scenarios)
-          </li>
-        </ul>
-      </section>
-      <section class="cv_education">
-        <div class="cv_heading">Education</div>
-        <ul>
-          <li>
-            <b>The Open University (09/2018-12/2023)</b><br />BSc (hons)
-            Computing and IT (software), First-class honours
-          </li>
-          <br />
-          <li>
-            <b>University of Wales, Aberystwyth (09/1996-06/1999)</b><br />BSc
-            (hons) Genetics, 2:2
-          </li>
-          <br />
-          <li>
-            <b>N.E.W. College, Worcestershire (09/1994-06/1996)</b
-            ><br />A-levels: Biology, Physics, Chemistry
-          </li>
-          <br />
-          <li>
-            <b>Studley High School, Warwickshire (09/1992-06/1994)</b
-            ><br />GCSEs: 8x A*-C, 2x D
-          </li>
-        </ul>
-      </section>
-      <section class="cv_volunteerexperience">
-        <div class="cv_heading">Volunteer experience</div>
-        <ul>
-          <li>
-            <b>Age UK (01/2017-08/2020)</b><br />
-            Visited older people in their homes as part of Home from Hospital
-            team, supporting clients with regaining their independence after a
-            hospital stay by performing varied tasks as required
-          </li>
-          <br />
-
-          <li>
-            <b>Home Start UK (01/2017-08/2020)</b><br />
-            Looked after children in a group setting so parents could receive
-            support from staff/other parents and visited assigned family,
-            offering varied support depending on their needs
-          </li>
-          <br />
-
-          <li>
-            <b
-              >Parents and Friends Association, St Luke’s First School
-              (~2011-2014)</b
-            ><br />
-            Worked within a team to plan and carry out craft activities,
-            sponsored/charity events, and fetes with children, teachers, and
-            families. Took on leadership role as PFA Chair in 2013/4.
-          </li>
-        </ul>
-      </section>
-      <section class="cv_workeexperience">
-        <div class="cv_heading">Work experience</div>
-        <ul>
-          <li class="outerbullet">
-            Festive Colleague, Tesco (11/2023-12/2023)
-            <ul>
-              <li class="innerbullet">
-                Temporary part-time role working nights to replenish stock
-                during the busy festive period
-              </li>
-            </ul>
-          </li>
-          <br />
-
-          <li class="outerbullet">
-            Systems Developer, Wrox Press (01/2002-12/2002)
-            <ul>
-              <li class="innerbullet">
-                Full project lifecycle development of internal and external
-                websites
-              </li>
-              <li class="innerbullet">
-                Worked as part of a team to complete integration of e-commerce
-                application
-              </li>
-              <li class="innerbullet">
-                Individual projects included creation of a new internal content
-                management system where I worked alone to gather requirements,
-                design, build, and test the solution, liaising with the
-                editorial team throughout
-              </li>
-              <li class="innerbullet">
-                Used HTML, CSS, JavaScript, ASP, and SQL skills (self-taught
-                from existing code, internet, and textbooks) to create
-                database-driven dynamic content
-              </li>
-            </ul>
-          </li>
-          <br />
-
-          <li class="outerbullet">
-            Support Developer, Wrox Press (05/2001-12/2001)
-            <ul>
-              <li class="innerbullet">
-                Built and maintained internal and external websites as part of
-                IT team supporting editorial and customer service groups
-              </li>
-            </ul>
-          </li>
-          <br />
-
-          <li class="outerbullet">
-            Internet Developer, just-sites.com (08/2000-05/2001)
-            <ul>
-              <li class="innerbullet">
-                Performed basic networking, technical troubleshooting, and
-                software installation as part of IT team
-              </li>
-              <li class="innerbullet">
-                Created and maintained website using HTML and CSS, employing
-                version control to ensure integrity of data
-              </li>
-              <li class="innerbullet">
-                Learned Visual Basic from existing code and applied knowledge to
-                relevant tasks
-              </li>
-            </ul>
-          </li>
-          <br />
-
-          <li class="outerbullet">
-            Website Operator, just-sites.com (06/2000-07/2000)
-            <ul>
-              <li class="innerbullet">
-                Performed internet searches for relevant content and entered
-                findings into web form, adding HTML links and formatting
-              </li>
-              <li class="innerbullet">
-                Maintained website pages using HTML with Dreamweaver 3 for
-                version control (learnt on the job)
-              </li>
-              <li class="innerbullet">
-                Optimised images for enhanced site performance using Adobe
-                ImageReady 2.0
-              </li>
-            </ul>
-          </li>
-          <br />
-
-          <li class="outerbullet">
-            Casework Support Secretary, The Law Society (12/1999-06/2000)
-            <ul>
-              <li class="innerbullet">
-                Audio typing of varied correspondence as part of a team
-              </li>
-              <li class="innerbullet">
-                Requested by one caseworker to be the sole typist assigned to
-                their work due to my efficiency, accuracy, and initiative
-              </li>
-              <li class="innerbullet">
-                Worked beyond the scope of the role to help colleagues with IT
-                problems and work with inhouse 'ROAD' database
-              </li>
-              <li class="innerbullet">
-                Presented with 'Customer Focus Award' (02/2000) for exceeding
-                expectations
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <section class="cv_interests">
-        <div class="cv_heading">Interests / Achievements</div>
-        <ul>
-          <li>
-            Carbon Literacy Project course, October 2022 (cert.no. 00045670)
-          </li>
-          <li>
-            Distance running / ultra hikes (since 2017), including
-            London2Brighton 100km hike, May ‘23
-          </li>
-          <li>Listening to audiobooks (particularly sci-fi/thriller/horror)</li>
-          <li>Camping and outdoor pursuits such as ‘Go Ape’</li>
-          <li>
-            Playing PC and mobile games (favourite genres are simulation,
-            MMORPGs, and puzzles)
-          </li>
-        </ul>
-      </section>
-      <footer role="contentinfo">Copyright &copy Kristabel Hilton 2024</footer>
+      <footer
+        role="contentinfo"
+        id="footer"
+      >
+        Copyright &copy Kristabel Hilton 2024
+      </footer>
     </div>
-    <!-- <script src="js/index.js"></script> -->
   </body>
 </html>

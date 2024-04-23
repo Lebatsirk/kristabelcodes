@@ -1,0 +1,202 @@
+/* TO DO see if there is a more elegant way to do this using flex */
+
+* {
+  box-sizing: border-box;
+  --cv-name: "Gruppo", "Raleway", Verdana, Arial, monospace;
+  --cv-title: "Comfortaa", Verdana, Arial, monospace;
+}
+
+aside {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Mobile first */
+@media screen and (max-width: 1000px) {
+  #cv_container {
+    display: grid;
+    grid-gap: 1rem;
+    width: auto;
+    margin: 0;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "cv_name"
+      "cv_contactdetails"
+      "cv_personalstatement"
+      "cv_skills"
+      "cv_education"
+      "cv_volunteerexperience"
+      "cv_workeexperience"
+      "cv_interests";
+  }
+}
+
+/* Larger screens / landscape */
+@media screen and (min-width: 1000px) {
+  #cv_container {
+    display: grid;
+    grid-gap: 1rem;
+    width: auto;
+    padding: 1rem;
+    /* grid-template-columns: 2fr 1fr; */
+    grid-template-rows: auto;
+    grid-template-areas:
+      "cv_name cv_name"
+      "cv_contactdetails cv_contactdetails"
+      "cv_personalstatement cv_personalstatement"
+      /* "cv_education cv_volunteerexperience" */
+      /* "cv_skills cv_skills" */
+      "cv_skills cv_education"
+      "cv_skills cv_volunteerexperience"
+      "cv_workeexperience cv_workeexperience"
+      "cv_interests cv_interests";
+  }
+}
+
+.cv_name {
+  display: grid;
+  grid-area: cv_name;
+  font-family: var(--cv-name);
+  color: #000000;
+  font-size: xx-large;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  width: auto;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.cv_heading {
+  font-family: var(--cv-title);
+  font-size: large;
+  color: #000000;
+  background-color: thistle;
+  padding: 0.5rem 1rem;
+  border: solid 0.3rem purple;
+  border-radius: 3rem;
+  border-left: solid 1rem purple;
+  border-right: solid 1rem purple;
+  height: max-content;
+  font-weight: 800;
+}
+
+.cv_contactdetails {
+  display: grid;
+  grid-area: cv_contactdetails;
+  width: auto;
+  padding: 0.5rem;
+}
+
+.cv_contactimages {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  align-content: flex-start;
+}
+
+.cv_personalstatement {
+  display: grid;
+  grid-area: cv_personalstatement;
+  width: auto;
+  padding: 0.5rem;
+  text-align: justify;
+  align-content: flex-start;
+}
+
+.cv_personalstatement p {
+  line-height: 2rem;
+}
+
+.cv_skills {
+  display: grid;
+  grid-area: cv_skills;
+  width: auto;
+  padding: 0.5rem;
+  align-content: flex-start;
+}
+
+.cv_skills_items,
+.cv_workexperience_items {
+  padding: 0 10%;
+}
+
+.cv_education_items,
+.cv_volunteerexperience_items,
+.cv_interests_items {
+  padding: 0 5%;
+}
+
+.cv_skills_items ul li {
+  line-height: 2rem;
+  list-style-type: circle;
+  font-weight: 500;
+}
+
+.info {
+  font-style: italic;
+  font-weight: 250;
+}
+
+.cv_education {
+  display: grid;
+  grid-area: cv_education;
+  width: auto;
+  padding: 0.5rem;
+  align-content: flex-start;
+}
+
+.cv_volunteerexperience {
+  display: grid;
+  grid-area: cv_volunteerexperience;
+  width: auto;
+  padding: 0.5rem;
+  align-content: flex-start;
+}
+
+.cv_workeexperience {
+  display: grid;
+  grid-area: cv_workeexperience;
+  width: auto;
+  padding: 0.5rem;
+  align-content: flex-start;
+}
+
+.cv_interests {
+  display: grid;
+  grid-area: cv_interests;
+  width: auto;
+  padding: 0.5rem;
+  align-content: flex-start;
+}
+
+/* Default to none so specific types can be set as needed */
+li {
+  list-style-type: none;
+}
+
+.cv_interests li {
+  list-style-type: circle;
+  line-height: 2rem;
+}
+
+ul .outerbullet {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+ul li .outerbullet {
+  list-style-type: solid;
+}
+
+ul li .innerbullet {
+  font-weight: normal;
+  list-style-type: "- ";
+  margin-left: 1rem;
+  line-height: 2rem;
+  padding-left: 0.5rem;
+}
