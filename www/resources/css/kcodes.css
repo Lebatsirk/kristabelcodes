@@ -42,6 +42,13 @@ body {
   /* font-size: clamp(1rem, -0.875rem + 8.333vw, 3rem); */
 }
 
+hr {
+  width: 100%;
+  height: 0.1rem;
+  background-color: purple;
+  border: 0 none;
+}
+
 header {
   display: grid;
   grid-area: header;
@@ -52,6 +59,11 @@ header {
   );
   padding: 0.5rem;
   text-align: center;
+}
+
+/* Default to not displaying so it can be shown only if used */
+.bookmarks {
+  display: none;
 }
 
 #sitename {
@@ -166,6 +178,7 @@ footer {
       "header"
       "nav"
       "aside"
+      "bookmarks"
       "main";
     /* "footer"; */
   }
@@ -209,6 +222,7 @@ footer {
     grid-template-areas:
       "header header"
       "nav aside"
+      "nav bookmarks"
       "nav main";
     /* "footer footer"; */
   }

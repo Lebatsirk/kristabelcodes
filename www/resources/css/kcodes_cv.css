@@ -13,6 +13,21 @@ aside {
   justify-content: space-evenly;
 }
 
+#bookmarks {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: smaller;
+}
+
+.backtotop {
+  color: purple;
+  font-size: smaller;
+}
+
 /* Mobile first */
 @media screen and (max-width: 1000px) {
   #cv_container {
