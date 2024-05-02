@@ -141,9 +141,9 @@ aside {
   align-content: flex-start;
 }
 
-.cv_workeexperience {
+.cv_workexperience {
   display: grid;
-  grid-area: cv_workeexperience;
+  grid-area: cv_workexperience;
   width: auto;
   padding: 0.5rem;
   align-content: flex-start;
@@ -224,7 +224,7 @@ ul li .innerbullet {
       "cv_skills"
       "cv_education"
       "cv_volunteerexperience"
-      "cv_workeexperience"
+      "cv_workexperience"
       "cv_interests";
   }
 }
@@ -257,7 +257,7 @@ ul li .innerbullet {
       /* "cv_skills cv_skills" */
       "cv_skills cv_education"
       "cv_skills cv_volunteerexperience"
-      "cv_workeexperience cv_workeexperience"
+      "cv_workexperience cv_workexperience"
       "cv_interests cv_interests";
   }
 }
