@@ -25,4 +25,9 @@ document.addEventListener("keydown", up);
 
 document.addEventListener("keyup", down);
 
+// Functions to detect touch so ball functionality runs on mobile
+document.addEventListener("touchstart", up);
+
+document.addEventListener("touchend", down);
+
 ball.addEventListener("click", changeColour);
