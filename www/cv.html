@@ -30,6 +30,12 @@
       type="text/css"
       href="resources/css/kcodes_cv.css"
     />
+    <!-- jQuery script from CDN for use in toggling sections -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <title>kristabel codes</title>
   </head>
   <body>
@@ -73,6 +79,18 @@
           </li>
         </ul>
       </nav>
+      <section
+        class="update"
+        role="complementary"
+      >
+        Update (2nd May): The original design used css grid for layout of the CV
+        sections, but since then I have learned and implemented some flexbox
+        elements (mainly for navigation). Today I added some JavaScript/jQuery
+        for the show/hide functionality but it has highlighted an issue with css
+        grid not being flexible enough to allow the page elements to realign and
+        flow properly when divs are hidden, so that's something I'm adding to my
+        "to do" list.
+      </section>
       <aside role="complementary">
         <a href="../files/Kristabel_Hilton_CV_anon.pdf">Download CV (.pdf)</a>
         <a href="../files/Kristabel_Hilton_CV_anon.docx">Download CV (.docx)</a>
@@ -349,18 +367,18 @@
           >
         </section>
         <section
-          id="cv_workeexperience"
-          class="cv_workeexperience"
+          id="cv_workexperience"
+          class="cv_workexperience"
         >
           <div
-            id="cv_workeexperience_heading"
+            id="cv_workexperience_heading"
             class="cv_heading"
           >
             Work experience
           </div>
           <div
-            id="cv_workeexperience_content"
-            class="cv_workeexperience_items"
+            id="cv_workexperience_content"
+            class="cv_workexperience_items"
           >
             <ul>
               <li class="outerbullet">

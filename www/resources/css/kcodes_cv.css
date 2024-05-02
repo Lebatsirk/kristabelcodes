@@ -28,46 +28,14 @@ aside {
   font-size: smaller;
 }
 
-/* Mobile first */
-@media screen and (max-width: 1000px) {
-  #cv_container {
-    display: grid;
-    grid-gap: 1rem;
-    width: auto;
-    margin: 0;
-    grid-template-columns: auto;
-    grid-template-areas:
-      "cv_name"
-      "cv_contactdetails"
-      "cv_personalstatement"
-      "cv_skills"
-      "cv_education"
-      "cv_volunteerexperience"
-      "cv_workeexperience"
-      "cv_interests";
-  }
-}
-
-/* Larger screens / landscape */
-@media screen and (min-width: 1000px) {
-  #cv_container {
-    display: grid;
-    grid-gap: 1rem;
-    width: auto;
-    padding: 1rem;
-    /* grid-template-columns: 2fr 1fr; */
-    grid-template-rows: auto;
-    grid-template-areas:
-      "cv_name cv_name"
-      "cv_contactdetails cv_contactdetails"
-      "cv_personalstatement cv_personalstatement"
-      /* "cv_education cv_volunteerexperience" */
-      /* "cv_skills cv_skills" */
-      "cv_skills cv_education"
-      "cv_skills cv_volunteerexperience"
-      "cv_workeexperience cv_workeexperience"
-      "cv_interests cv_interests";
-  }
+#cv_contactdetails_heading,
+#cv_personalstatement_heading,
+#cv_skills_heading,
+#cv_education_heading,
+#cv_volunteerexperience_heading,
+#cv_workexperience_heading,
+#cv_interests_heading {
+  cursor: pointer;
 }
 
 .cv_name {
@@ -214,4 +182,82 @@ ul li .innerbullet {
   margin-left: 1rem;
   line-height: 2rem;
   padding-left: 0.5rem;
+}
+
+.update {
+  display: grid;
+  grid-area: update;
+  /* font-family: var(--nav-font); */
+  background-color: rgba(200, 20, 200, 0.25);
+  padding: 0.25rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 1.05rem;
+}
+
+/* Mobile first */
+@media screen and (max-width: 1000px) {
+  #outer_container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "header"
+      "nav"
+      "update"
+      "bookmarks"
+      "aside"
+      "main";
+  }
+
+  #cv_container {
+    display: grid;
+    grid-gap: 1rem;
+    width: auto;
+    margin: 0;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "cv_name"
+      "cv_contactdetails"
+      "cv_personalstatement"
+      "cv_skills"
+      "cv_education"
+      "cv_volunteerexperience"
+      "cv_workeexperience"
+      "cv_interests";
+  }
+}
+
+/* Larger screens / landscape */
+@media screen and (min-width: 1000px) {
+  #outer_container {
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-template-areas:
+      "header header"
+      "nav update"
+      "nav aside"
+      "nav bookmarks"
+      "nav main";
+  }
+
+  #cv_container {
+    display: grid;
+    grid-gap: 1rem;
+    width: auto;
+    padding: 1rem;
+    /* grid-template-columns: 2fr 1fr; */
+    grid-template-rows: auto;
+    grid-template-areas:
+      "cv_name cv_name"
+      "cv_contactdetails cv_contactdetails"
+      "cv_personalstatement cv_personalstatement"
+      /* "cv_education cv_volunteerexperience" */
+      /* "cv_skills cv_skills" */
+      "cv_skills cv_education"
+      "cv_skills cv_volunteerexperience"
+      "cv_workeexperience cv_workeexperience"
+      "cv_interests cv_interests";
+  }
 }
